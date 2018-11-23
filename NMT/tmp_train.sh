@@ -1,0 +1,13 @@
+python -m nmt.nmt \
+--src=vi --tgt=en \
+--vocab_prefix=nmt_data/vocab \
+--train_prefix=nmt_data/train \
+--dev_prefix=nmt_data/tst2012 \
+--test_prefix=nmt_data/tst2013 \
+--out_dir=nmt_model \
+--step_per_stats=100 \
+--num_train_steps=1200 \
+--num_layers 2 \
+--num_units 128 \
+--dropout 0.2 \
+--metrics bleu;

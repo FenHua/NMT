@@ -1,0 +1,16 @@
+# log_file=nmt_model/log_1542942754
+# Start step 0, lr 1, Fri Nov 23 11:13:01 2018
+  global step 100 lr 1 step-time 0.22s wps 25.57K ppl 1475.42 bleu 0.00
+  global step 200 lr 1 step-time 0.20s wps 27.83K ppl 524.22 bleu 0.00
+  global step 300 lr 1 step-time 0.31s wps 18.29K ppl 373.56 bleu 0.00
+  global step 400 lr 1 step-time 0.46s wps 12.34K ppl 258.77 bleu 0.00
+  global step 500 lr 1 step-time 0.46s wps 12.35K ppl 213.32 bleu 0.00
+  global step 600 lr 1 step-time 0.46s wps 11.89K ppl 185.32 bleu 0.00
+  global step 700 lr 1 step-time 0.45s wps 12.48K ppl 174.02 bleu 0.00
+  global step 800 lr 1 step-time 0.23s wps 24.66K ppl 163.18 bleu 0.00
+  global step 900 lr 1 step-time 0.20s wps 27.83K ppl 146.08 bleu 0.00
+  global step 1000 lr 1 step-time 0.20s wps 28.31K ppl 146.14 bleu 0.00
+  global step 1100 lr 1 step-time 0.21s wps 25.75K ppl 137.62 bleu 0.92
+  global step 1200 lr 1 step-time 0.20s wps 28.30K ppl 129.33 bleu 0.92
+# Final, step 1200 lr 1 step-time 0.20 wps 28.30K ppl 129.33, dev ppl 107.28, dev bleu 0.6, test ppl 121.88, test bleu 0.8, Fri Nov 23 11:19:52 2018
+# Best bleu, step 1000 step-time 0.20 wps 28.30K, dev ppl 109.41, dev bleu 0.9, test ppl 128.11, test bleu 0.6, Fri Nov 23 11:20:17 2018
